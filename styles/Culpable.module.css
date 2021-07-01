@@ -1,0 +1,62 @@
+.hero {
+  background-color: #6dfb9b;
+}
+
+.hero_image {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+}
+
+.culpable a.contact_button {
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #041443;
+  border: solid 2px #6dfb9b;
+  padding: 18px 30px;
+}
+
+.culpable a.contact_button i {
+  margin-top: 10px;
+  font-size: 32px;
+  color: #6dfb9b;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .hero {
+    background-color: white;
+  }
+
+  .invisible {
+    display: none;
+  }
+
+  .contact_button {
+    display: none;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

@@ -1,0 +1,48 @@
+.toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+.toggle .emoticon {
+  background-color: #75fb9c;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.toggle .emoticon i {
+  font-size: 26px;
+  color: #000e4d;
+}
+
+.toggle .circle {
+  background-color: #00114a;
+  padding-left: 8px;
+  padding-top: 6px;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.toggle .circle i {
+  color: white;
+  font-size: 16px;
+}
+
+.toggle .at {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+.toggle .phone {
+  position: absolute;
+  top: -88px;
+  left: -27px;
+}
+
+.toggle .map {
+  position: absolute;
+  top: -96px;
+  left: 15px;
+}

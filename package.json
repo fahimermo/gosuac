@@ -1,0 +1,47 @@
+{
+  "name": "gosuac",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.25.0",
+    "@sentry/node": "^5.25.0",
+    "@sentry/webpack-plugin": "^1.13.0",
+    "@zeit/next-source-maps": "^0.0.4-canary.1",
+    "axios": "^0.20.0",
+    "form-data": "^3.0.0",
+    "moment": "^2.29.1",
+    "next": "9.5.3",
+    "next-pwa": "^3.1.5",
+    "next-routes": "^1.4.2",
+    "next-seo": "^4.11.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "16.13.1",
+    "react-burger-menu": "^2.7.1",
+    "react-card-flipper": "^1.0.1",
+    "react-dom": "16.13.1",
+    "react-flip-cards": "^0.0.4",
+    "react-flipcard": "^0.2.1",
+    "react-google-maps": "^9.4.5",
+    "react-gtm-module": "^2.0.11",
+    "react-owl-carousel3": "^2.2.5",
+    "react-paginate": "^6.5.0",
+    "react-stickynode": "^3.0.3",
+    "recompose": "^0.30.0",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "prettier": "^2.1.2"
+  }
+}

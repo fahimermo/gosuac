@@ -1,0 +1,46 @@
+.tag_name {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #171717;
+  background-color: #00ff91;
+  padding: 16px 20px;
+  padding-right: 36px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .tag_name {
+    font-size: 11px;
+    padding: 8px 12px;
+    padding-right: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

@@ -1,0 +1,80 @@
+.card {
+  border: solid 3px #75fb9c;
+}
+
+.card:hover {
+  background-color: #75fb9c;
+}
+
+.card .title {
+  font-family: Metropolis;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #75fb9c;
+}
+
+.card .text {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #041443;
+}
+
+.card:hover .title {
+  color: #ffffff;
+}
+
+.card:hover .text {
+  color: #041443;
+}
+
+.card .icon {
+  width: 61px;
+  height: 61px;
+  max-width: unset;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .card .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .card .title {
+    font-size: 14px;
+  }
+
+  .card .text {
+    font-size: 10px;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

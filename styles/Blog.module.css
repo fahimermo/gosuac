@@ -1,0 +1,59 @@
+.page_title {
+  -webkit-text-stroke: 1px #172651;
+  font-family: Metropolis;
+  font-size: 72px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.category_name:hover {
+  background-color: #75fb9c;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .page_title {
+    font-size: 36px;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+  .responsive_height{
+    padding-top: 54px;
+  }
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+  .responsive_height{
+    padding-top: 0px;
+  }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

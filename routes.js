@@ -1,0 +1,7 @@
+const routes = require('next-routes')
+module.exports = routes()
+  .add({ name: 'index', pattern: '/', page: 'index' })
+  .add({ name: 'culpable', pattern: '/culpable', page: 'culpable' })
+  .add({ name: 'expertise', pattern: '/expertise', page: 'expertise' })
+  .add({ name: 'contacto', pattern: '/contacto', page: 'contacto' })
+  .add({ name: 'blog', pattern: '/blog', page: 'blog' })

@@ -1,0 +1,51 @@
+.logo {
+  padding-top: 30px;
+  padding-left: 5rem;
+}
+
+.logo a {
+  pointer-events: auto;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .logo {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background: #d8d8d8;
+  }
+
+  .background_transparent{
+    background: transparent;
+  }
+
+  .background_green{
+    background-color: #75fb9c;
+  }
+
+  .logo img {
+    width: 92px;
+    height: 26px;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

@@ -1,0 +1,268 @@
+.menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #001446;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 120;
+}
+
+.right_bar_green,
+.right_bar_black {
+  width: 42px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #75fb9c;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.right_bar_black {
+  background-color: #041443;
+}
+
+.burger_icon div {
+  background-color: #021a48;
+}
+
+.burger_icon_black div {
+  background-color: #75fb9c;
+}
+
+.burger_icon .top,
+.burger_icon .middle {
+  width: 28px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.burger_icon .middle {
+  width: 24px;
+  margin: 6px 0;
+}
+
+.right_bar_green .burger_icon,
+.right_bar_black .burger_icon_black {
+  font-size: 30px;
+  color: #021a48;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.menu_items {
+  min-height: 520px;
+}
+
+.menu_items a {
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Metropolis;
+  font-size: 48px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #001446;
+  display: flex;
+}
+
+.menu_items a:hover {
+  color: #ffffff;
+}
+
+.number {
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.sub_titulo {
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Metropolis;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.68;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 80px;
+  height: 50px;
+}
+
+.sub_titulo .text {
+  height: 40px;
+}
+
+.sub_titulo .greenbar {
+  width: 258px;
+  height: 3px;
+  background-color: #75fb9c;
+  margin-left: -30px;
+}
+
+.menu .socials i {
+  font-size: 24px;
+  color: #75fb9c;
+}
+
+.menu .socials ul li {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/* .menu .contacts {
+  padding-top: 10px;
+}
+
+.menu .contacts i {
+  color: white;
+}
+
+.menu .contacts ul li {
+  color: #75fb9c;
+  font-size: 21px;
+} */
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  padding: 5px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  background-color: #75fb9c;
+  cursor: pointer;
+}
+
+.close i {
+  font-size: 32px;
+  color: #021a48;
+}
+
+.copyright {
+  /* -webkit-text-stroke: 1px #ffffff; */
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.78;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .menu_items {
+    min-height: 360px;
+  }
+
+  .menu_items a {
+    font-size: 24px;
+    line-height: 2.5;
+  }
+
+  .menu .socials i {
+    font-size: 12px;
+  }
+
+  .menu .socials ul li {
+    margin-bottom: 10px;
+  }
+
+  .sub_titulo {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 3.08;
+  }
+
+  .copyright {
+    font-size: 11px;
+  }
+
+  .close {
+    right: 20px;
+    padding: 4px;
+    padding-top: 40px;
+    padding-bottom: 12px;
+  }
+
+  .close i {
+    font-size: 24px;
+  }
+
+  .right_bar_green,
+  .right_bar_black {
+    width: 32px;
+    height: 80px;
+    right: 20px;
+  }
+
+  .burger_icon .top,
+  .burger_icon .middle {
+    width: 18px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  .burger_icon .middle {
+    width: 16px;
+    margin: 3px 0;
+  }
+
+  .right_bar_green .burger_icon,
+  .right_bar_black .burger_icon_black {
+    font-size: 24px;
+    top: 70%;
+  }
+
+  .background_green {
+    background-color: #75fb9c;
+  }
+
+  .background_black {
+    background-color: #041443;
+  }
+
+  .mobile_burger_green div {
+    background-color: #021a48;
+  }
+  
+  .mobile_burger_black div {
+    background-color: #75fb9c;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

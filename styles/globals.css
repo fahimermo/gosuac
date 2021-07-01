@@ -1,0 +1,319 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-Thin.otf') format('opentype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-RegularItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-Light.otf') format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-Medium.otf') format('opentype');
+  font-weight: medium;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-MediumItalic.otf') format('opentype');
+  font-weight: medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/metropolis/Metropolis-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Metropolis, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.color-green {
+  color: #75fb9c;
+}
+
+.color-black {
+  color: #001347;
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+/* --- Owl Carousel (Home)--- */
+.owl-prev {
+  width: 65px;
+  height: 65px;
+  background-color: #75fb9c !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+}
+.owl-next {
+  width: 65px;
+  height: 65px;
+  background-color: #041443 !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+}
+
+.owl_carousel_prev {
+  font-size: 32px;
+  color: #000000;
+}
+.owl_carousel_next {
+  font-size: 32px;
+  color: #fcfcfc;
+}
+
+.owl-nav {
+  margin-top: 30px !important;
+}
+
+.owl-carousel .owl-item div {
+  border-right: solid 1px #78fb9e;
+}
+
+.owl-carousel .owl-item img {
+  width: 150px !important;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.owl-carousel .owl-item div {
+  position: relative;
+  height: 80px;
+}
+
+.owl-stage-outer {
+  border-right: solid 1px white;
+}
+
+/* --- Owl (Blog) --- */
+.blog_detail .owl-nav {
+  margin-top: 30px !important;
+}
+
+.blog_detail .owl-carousel .owl-item div {
+  border-right: none;
+}
+
+.blog_detail .owl-carousel .owl-item img {
+  all: initial;
+  * {
+    all: unset;
+  }
+}
+
+.blog_detail .owl-carousel .owl-item div {
+  position: unset;
+  height: unset;
+}
+
+/* --- Paginate --- */
+ul.pagination {
+  margin-left: -5px;
+  margin-right: -5px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* .pagination li:hover a,
+.pagination li.selected a {
+  background-color: #37344c;
+} */
+
+.pagination a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  /* border: 2px solid #37344c;
+  background-color: transparent;
+  border-radius: 50px; */
+  padding-left: 12px;
+  padding-right: 12px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.paginate_arrow {
+  font-size: 36px;
+  color: #75fb9c;
+}
+
+/* --- Flipping card --- */
+.styles__card___2P_1t {
+  width: 460px;
+}
+
+/* Responsiveness */
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .owl-prev {
+    width: 32px;
+    height: 32px;
+  }
+  .owl-next {
+    width: 32px;
+    height: 32px;
+  }
+
+  .owl_carousel_prev {
+    font-size: 16px;
+  }
+  .owl_carousel_next {
+    font-size: 16px;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+/* from CMS */
+
+p.bold {
+  font-weight: bold;
+  font-style: normal;
+  line-height: 2.6;
+}
+
+p.green {
+  font-weight: bold;
+  font-style: normal;
+  line-height: 2.6;
+  color: #75fb9c;
+}
+
+.selected {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #75fb9c;
+}

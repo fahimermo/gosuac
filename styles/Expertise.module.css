@@ -1,0 +1,40 @@
+.hero {
+  background-color: #6dfb9b;
+}
+
+.hero_image {
+  position: absolute;
+  bottom: -30px;
+  left: 26%;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .hide {
+    display: none;
+  }
+
+  .show_expertise {
+    display: block;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

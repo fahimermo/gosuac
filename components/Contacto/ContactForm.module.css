@@ -1,0 +1,162 @@
+.contacts {
+  width: 555px;
+  background-color: #75fb9c;
+  pointer-events: auto;
+}
+
+.contacts .hey {
+  position: absolute;
+  top: -30px;
+  left: -70px;
+  font-family: Metropolis;
+  font-size: 90px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.36;
+  letter-spacing: normal;
+  color: #001347;
+}
+
+.contacts .title {
+  font-family: Metropolis;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #001347;
+}
+
+.contacts .text {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #001347;
+}
+
+.contacts ul li {
+  font-family: Metropolis;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  color: #001347;
+}
+
+.contacts button {
+  border: solid 2px #001347;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #001347;
+}
+
+.contacts input,
+.contacts textarea {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.contacts input::placeholder,
+.contacts textarea::placeholder {
+  color: #75fb9c;
+}
+
+.contacts input {
+  border-radius: 4px;
+}
+
+.contacts textarea {
+  border-radius: 4px;
+}
+
+.contacts .image {
+  position: absolute;
+  right: -50px;
+  bottom: 0px;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .contacts {
+    width: 315px;
+  }
+
+  .contacts .hey {
+    top: -15px;
+    left: -5px;
+    font-size: 72px;
+    line-height: 0.44;
+  }
+
+  .contacts .title {
+    font-size: 14px;
+  }
+
+  .contacts .text {
+    font-size: 12px;
+  }
+
+  .contacts ul {
+    display: none;
+  }
+
+  .contacts button {
+    font-size: 14px;
+  }
+
+  .contacts input,
+  .contacts textarea {
+    font-size: 11px;
+  }
+
+  .contacts input {
+    border-radius: 0px;
+  }
+
+  .contacts textarea {
+    border-radius: 0px;
+  }
+
+  .contacts .image {
+    display: none;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}

@@ -1,0 +1,114 @@
+.background_pattern {
+  width: 466px;
+  height: 417px;
+  /* object-fit: contain; */
+}
+
+.background_color {
+  /* background-color: #021a48; */
+}
+
+.title,
+.name {
+  transform: rotate(270deg);
+}
+
+.title {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #75fb9c;
+}
+
+.name {
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(117, 251, 156, 0);
+}
+
+.stroke {
+  -webkit-text-stroke: 2px #041443;
+  font-family: Metropolis;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #98f7a4;
+}
+
+.small,
+.medium,
+.large {
+  font-family: Metropolis;
+  font-size: 25px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #041443;
+}
+
+.small {
+  font-size: 19px;
+}
+
+.large {
+  font-size: 36px;
+}
+
+/* .text {
+  font-family: "Futura";
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #041443;
+} */
+
+/* .front, */
+.back {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Mobile (xs) */
+@media (max-width: 639px) {
+  .back {
+    background: none !important;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}
